@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SFCrashLogTool"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "收集线上闪退问题原因"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "SFCrashLogTool/Classes/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "SFCrashLogTool/Classes/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
