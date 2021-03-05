@@ -1,6 +1,9 @@
 # SFCrashLogTool
 线上应用闪退收集
 # Use
+    导入 pod 'SFCrashLogTool' , '~>0.0.2'
+
+
     #import <SFCrashLogTool.h>
     @interface AppDelegate ()
 
